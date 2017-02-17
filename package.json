@@ -8,15 +8,18 @@
     "start": "node app"
   },
   "dependencies": {
-    "express":"*",
-    "mongoose":"*",
-    "bcryptjs":"*",
-    "cors":"*",
-    "jsonwebtoken":"*",
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
     "body-parser": "*",
     "passport": "*",
-    "passport-jwt":"*"
+    "passport-jwt": "*"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
